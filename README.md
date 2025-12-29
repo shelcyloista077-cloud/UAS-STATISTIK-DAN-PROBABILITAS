@@ -69,14 +69,14 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
   - *Sematkan gambar plot dari folder /results...*
   - *Interpretasi:* Jelaskan wawasan apa yang Anda dapatkan dari bentuk distribusi data.
 Jawaban:
--Histogram menunjukkan distribusi pendapatan tahunan startup yang mendekati distribusi normal dengan sedikit kemiringan ke kanan
+-Histogram menunjukkan distribusi pendapatan tahunan startup yang mendekati distribusi normal dengan sedikit kemiringan ke kanan.Dari histogram terlihat bahwa sebagian besar startup punya pendapatan sekitar 20-40 miliar per tahun.Ada beberapa startup yang pendapatannya lebih tinggi,sanpai 66 miliar,tapi jumlahnya tidak banyak.Boxplot menunjukkan bahwa 50% startup ada di kisaran 14-19 miliar,dan beberapa startup yang pendapatan nya jauh diatas rata rata.Data pendapatan ini tidak tersebar merata-lebih banyak startup dengan pendapatan menengah ke bawah,hanya sedikit yang sangat tinggi.
 ### 5.2. Uji Normalitas
 - **Hasil Uji Shapiro-Wilk:**
   - *Nilai p-value...*
   - *Interpretasi:* Apakah data Anda terdistribusi normal berdasarkan hasil uji? Apa implikasinya?
  Jawaban:
- Nilai p-value adalah
-Untuk analisis korelasinya,meski data tidak normal,korelasi pearsson 
+ Nilai p-value adalah 1.497e-14,yang jauh dibawah 00.5.Ini berarti data pendapatan tahunan tidak terdistribusi normal'
+Untuk analisis korelasinya dan regresi yang sudah dilakukan,hasilnya tetap bisa digunakan dengan metode tersebut cukup tahan terhadap data tidak normal,terutama dengan jumlah data yang besar sebanyak 650 startup.Namun jika akan dilakukan uji statistik lain yang lebih sensitif terhadap normalitas,perlu pertimbangan khusus atau transformasi data terlebih dahulu.
 
 
 - **Plot Q-Q:**
@@ -115,10 +115,11 @@ Untuk analisis korelasinya,meski data tidak normal,korelasi pearsson
   - *Sematkan gambar plot dari folder /results...*
   - *Interpretasi:* Jelaskan bagaimana garis regresi merepresentasikan hubungan antara variabel.
 Jawaban:
-Dari gambar tersebut bisa kita simpulkan garis merah pada scatter plot menunjukkan hubungan linear yang hampir sempurna anara biaya akuisisi pelanggan dan pendapatan tahunan.Garis ini melewati pusat sebaran data dengan hampir semua titik berada sangat dekat dengan garis,merepresentasikan slope 0.98 dari persamaan regresi.Dimana data sangat sesuai dengan model dengan sangat baik  R-squared adalah 0.991 atau 99.1%
+Dari gambar tersebut bisa kita simpulkan garis merah pada scatter plot menunjukkan hubungan linear yang hampir sempurna antara biaya akuisisi pelanggan dan pendapatan tahunan.Garis ini melewati pusat sebaran data dengan hampir semua titik berada sangat dekat dengan garis,merepresentasikan slope 0.98 dari persamaan regresi.Dimana data sangat sesuai dengan model dengan sangat baik  R-squared adalah 0.991 atau 99.1%
 ---
 
 ## 6. Kesimpulan
 
 Rangkum temuan utama dari analisis Anda dalam beberapa kalimat. Apa wawasan paling penting yang Anda peroleh?
 Jawaban:
+Dari analisis data 650 startup SaaS,bisa kita temukan bahwa biaya akuisisi pelanggan memiliki hubungan hampir sempurna dengan pendapatan tahunan (korelasi 0.996).Setiap kenaikan 1 juta Rupiah biaya akuisisi meningkatkan pendapatan sekitar 980 juta rupiah.Model regresi yang dihasilkan juga mampu memprediksi pendapatan dengan akurasi 99.1%.Indutri ini menunjukkan variasi pendapatan yang besar,dengan sebagian startup berada di kisaran menengah (14-49 miliar) dan beberapa rata rata mencapai pendapatan yang sangat tinggi
