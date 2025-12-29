@@ -67,7 +67,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
     Dimana dari data ini memberikan gambaran bahwa 50% startup sedang berpendapatan dalam rentang yang cukup luas sebesar 34.47 miliar IDR,sementara 25% startup berpendapatan dibawah 14.31 miliar IDR dan 25% sisanya berpendapatan diatas 49.04 miliar IDR.
 - **Visualisasi (Histogram/Boxplot):**
   - *Sematkan gambar plot dari folder /results...*
-  - jawaban:https://github.com/shelcyloista077-cloud/UAS-STATISTIK-DAN-PROBABILITAS/blob/main/histogram_Pendapatan_Tahunan_Miliar_IDR.png
+  - jawaban:![Histogram Pendapatan](https://github.com/shelcyloista077-cloud/UAS-STATISTIK-DAN-PROBABILITAS/blob/main/histogram_Pendapatan_Tahunan_Miliar_IDR.png)
   - https://github.com/shelcyloista077-cloud/UAS-STATISTIK-DAN-PROBABILITAS/blob/main/boxplot_Pendapatan_Tahunan_Miliar_IDR.png
   - *Interpretasi:* Jelaskan wawasan apa yang Anda dapatkan dari bentuk distribusi data.
 Jawaban:
