@@ -118,7 +118,8 @@ Untuk analisis korelasinya dan regresi yang sudah dilakukan,hasilnya tetap bisa 
   - Model regresi mampu menjelaskan 99.1% variasi dalam dependen  Pendapatan_Tahunan_Miliar_IDR.Hanya 0.9% variasi yang tidak dapat dijelaskan oleh variabel independen Biaya_Akuisisi_Pelanggan_Juta_IDR.Nilai R² yang mendekati 1 ini menunjukkan kecocokan model yang hampir sempurna dan diperkirakan sangant tinggi.
 - **Visualisasi (Garis Regresi pada Scatter Plot):**
   - *Sematkan gambar plot dari folder /results...*
-  - Jawaban:
+  - Jawaban:![Plot Regresi Linear](https://github.com/shelcyloista077-cloud/UAS-STATISTIK-DAN-PROBABILITAS/blob/main/plot_regresi_Biaya_Akuisisi_Pelanggan_Juta_IDR_vs_Pendapatan_Tahunan_Miliar_IDR.png)
+
   - *Interpretasi:* Jelaskan bagaimana garis regresi merepresentasikan hubungan antara variabel.
 Jawaban:
 Dari gambar tersebut bisa kita simpulkan garis merah pada scatter plot menunjukkan hubungan linear yang hampir sempurna antara biaya akuisisi pelanggan dan pendapatan tahunan.Garis ini melewati pusat sebaran data dengan hampir semua titik berada sangat dekat dengan garis,merepresentasikan slope 0.98 dari persamaan regresi.Dimana data sangat sesuai dengan model dengan sangat baik  R-squared adalah 0.991 atau 99.1%
