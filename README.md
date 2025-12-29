@@ -81,6 +81,7 @@ Untuk analisis korelasinya dan regresi yang sudah dilakukan,hasilnya tetap bisa 
 
 - **Plot Q-Q:**
   - *Sematkan gambar plot dari folder /results...*
+  - Jawaban:https://github.com/shelcyloista077-cloud/UAS-STATISTIK-DAN-PROBABILITAS/blob/main/histogram_Pendapatan_Tahunan_Miliar_IDR.png
   - *Interpretasi:* Apakah titik-titik data mengikuti garis lurus? Apa artinya?
   - Jawaban:
   - Titik titik data tidak mengikuti garis lurus diagonal dengan sempurna,teruttama di kedua ekor distribusi.Deviasi dari garis normal teoritis di ekor kanan dan kiri mengindikasi distribusi data tidak normal,yang konsisten dengan hasil uji shapiro-wilk (p-value ≈ 0).Pola lengkungan di kedua ujung menunjukkan data memiliki ekor yang lebih berat dibanding distribusi normal teoritis.
