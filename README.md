@@ -67,6 +67,8 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
     Dimana dari data ini memberikan gambaran bahwa 50% startup sedang berpendapatan dalam rentang yang cukup luas sebesar 34.47 miliar IDR,sementara 25% startup berpendapatan dibawah 14.31 miliar IDR dan 25% sisanya berpendapatan diatas 49.04 miliar IDR.
 - **Visualisasi (Histogram/Boxplot):**
   - *Sematkan gambar plot dari folder /results...*
+  - jawaban:https://github.com/shelcyloista077-cloud/UAS-STATISTIK-DAN-PROBABILITAS/blob/main/histogram_Pendapatan_Tahunan_Miliar_IDR.png
+  - https://github.com/shelcyloista077-cloud/UAS-STATISTIK-DAN-PROBABILITAS/blob/main/boxplot_Pendapatan_Tahunan_Miliar_IDR.png
   - *Interpretasi:* Jelaskan wawasan apa yang Anda dapatkan dari bentuk distribusi data.
 Jawaban:
 -Histogram menunjukkan distribusi pendapatan tahunan startup yang mendekati distribusi normal dengan sedikit kemiringan ke kanan.Dari histogram terlihat bahwa sebagian besar startup punya pendapatan sekitar 20-40 miliar per tahun.Ada beberapa startup yang pendapatannya lebih tinggi,sanpai 66 miliar,tapi jumlahnya tidak banyak.Boxplot menunjukkan bahwa 50% startup ada di kisaran 14-19 miliar,dan beberapa startup yang pendapatan nya jauh diatas rata rata.Data pendapatan ini tidak tersebar merata-lebih banyak startup dengan pendapatan menengah ke bawah,hanya sedikit yang sangat tinggi.
@@ -81,7 +83,7 @@ Untuk analisis korelasinya dan regresi yang sudah dilakukan,hasilnya tetap bisa 
 
 - **Plot Q-Q:**
   - *Sematkan gambar plot dari folder /results...*
-  - Jawaban:https://github.com/shelcyloista077-cloud/UAS-STATISTIK-DAN-PROBABILITAS/blob/main/histogram_Pendapatan_Tahunan_Miliar_IDR.png
+  - Jawaban:*https://github.com/shelcyloista077-cloud/UAS-STATISTIK-DAN-PROBABILITAS/blob/main/qqplot_Pendapatan_Tahunan_Miliar_IDR.png*
   - *Interpretasi:* Apakah titik-titik data mengikuti garis lurus? Apa artinya?
   - Jawaban:
   - Titik titik data tidak mengikuti garis lurus diagonal dengan sempurna,teruttama di kedua ekor distribusi.Deviasi dari garis normal teoritis di ekor kanan dan kiri mengindikasi distribusi data tidak normal,yang konsisten dengan hasil uji shapiro-wilk (p-value ≈ 0).Pola lengkungan di kedua ujung menunjukkan data memiliki ekor yang lebih berat dibanding distribusi normal teoritis.
@@ -95,6 +97,7 @@ Untuk analisis korelasinya dan regresi yang sudah dilakukan,hasilnya tetap bisa 
   - Hubungan antara Pendapatan_Tahunan_Miliar_IDR dan Biaya_Akuisisi_Pelanggan_Juta_IDR menunjukkan korelasi positif yang sangat kuat.Nilai r mendekati +1 yang dimana hubungan linearnya hampir sempurna,dan kita juga tahu peningkatan biaya akuisisi pelanggan berkaitan lansung dengan peningkatan pendapatan tahunan.
 - **Visualisasi (Scatter Plot):**
   - *Sematkan gambar plot dari folder /results...*
+  - jawaban:https://github.com/shelcyloista077-cloud/UAS-STATISTIK-DAN-PROBABILITAS/blob/main/scatterplot_Pendapatan_Tahunan_Miliar_IDR_vs_Biaya_Akuisisi_Pelanggan_Juta_IDR.png
   - *Interpretasi:* Apakah pola pada scatter plot mendukung hasil koefisien korelasi?
   - Jawaban:
   - Scatter plot menunjukkan pola titik titik yang membentuk diagonal yang hampir lurus,dengan titik yang sangat rapat mengikuti garis tren linear merah.Pola tersebut sangat mendukung hasil koefisien korelasi r= 0.996,dimana hubungan linear positif yang hampir sempurna antara kedua variabel.
